@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+body{background-color: #FBF0EA;}
+body{color: black;}
+
+h1{font-family: 'Caprasimo';}
+h2{font-family: 'Caprasimo';}
+p{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+nav{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+footer{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+nav a:hover {color: #AE0201;}
+footer a:hover {color: #000000;}
+header nav ul{
+    display: flex;
+    justify-content: flex-end
+}
+
+nav a{
+    text-decoration: none;
+    color: #092729;
+}
+
+header nav li{
+    display: flex;
+    list-style-type: none;
+    margin-right: 1em;
+    padding-left: 2em;
+    color: #000000;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header img{
+    display: flex;
+    justify-content: flex-start;
+    max-width: 8em;
+    height: auto;
+    margin-left: 1em;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #004C3F;
+    color:#ffffff;
+}
+
+footer section{
+    margin-right: 1em;
+    padding-left: 1em;
+}
+
+footer ul{
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+}
+
+footer ul li{
+    margin-bottom: 10px;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer p{
+    align-self: flex-end;
+    text-align: right;
+    margin-left: 10em
+}
+
+main h1{
+    font-size: 4em;
+    color: #004C3F;
+    margin-top: 3em;
+    margin-right: 3em;
+    padding-left: 2em;
+}
+
+main p{
+    margin-left: 8em;
+    margin-right: 30em;
+}
+
+.populaire{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3em;
+    gap: 2em;
+}
+
+.populair{
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    background-color: #ffffff;
+    margin-left: 3em;
+    margin-right: 3em;
+    border-radius: 3em;
+    padding: 3em;
+    margin: 2em;
+    gap: 2em;
+    margin-bottom: 1em;
+}
+
+.populair img{
+    width: 20%;
+    margin-bottom: 2em;
+}
+.populaire h2{
+    font-family: 'Caprasimo';
+    text-align: left;
+    margin-top: 11em;
+}
+.populair h3{
+    font-family: 'Caprasimo';
+    margin-bottom: 0;
+    text-align: left;
+}
+
+.populair p{
+    text-align: left;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-right: 10em;
+}
+
+.populaire audio{
+    width: 40%;
+}
+
+.teaser{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3em;
+}
+
+.teaser h2{
+    margin: 0;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.teaser video{
+    max-width: 50em;
+    height: auto;
+    align-items: center;
+}
+
+.podcast{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 3em;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+.ervaring{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-bottom: 3em;
+}
+
+.ervaring h3{
+    font-family: 'Caprasimo';
+    margin-bottom: 0;
+}
+
+.ervaring p{
+    font-size: 0.95em;
+}
+
+.afleveringen h1{
+    color: #004C3F;
+    font-size: 3em;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+.afleveringen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3em;
+    gap: 2em;
+}
+
+.aflevering{
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    background-color: #ffffff;
+    margin-left: 3em;
+    margin-right: 3em;
+    border-radius: 3em;
+    padding: 3em;
+    margin: 2em;
+    gap: 2em;
+    margin-bottom: 1em;
+}
+
+.aflevering img{
+    width: 20%;
+    margin-bottom: 2em;
+}
+
+.aflevering h2{
+    margin-bottom: 0;
+    text-align: left;
+}
+
+.aflevering p{
+    text-align: left;
+    margin-bottom: 0;
+    margin-right: 10em;
+}
+
+.afleveringen audio{
+    width: 40%;
+}
+
+section.over{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+.doel{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 3em;
+    margin-left: 3em;
+    margin-bottom: 3em;
+}
+
+.over h1{
+    color: #004C3F;
+    font-size: 3em;
+    margin-bottom: 0;
+}
+
+.over h2{
+    margin-bottom: 0;
+}
+
+.doel h2{
+    margin-bottom: 0;
+}
+
+.doel ul{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+.doel p:nth-of-type(2){
+    font-family: 'Caprasimo';
+}
